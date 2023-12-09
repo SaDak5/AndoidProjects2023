@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/activity_show_details.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewShowId"
+        android:layout_width="327dp"
+        android:layout_height="71dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewShowUrl"
+        android:layout_width="327dp"
+        android:layout_height="100dp"
+        android:fontFamily="sans-serif-black"
+        android:paddingTop="8dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewShowLanguage"
+        android:layout_width="325dp"
+        android:layout_height="81dp"
+        android:fontFamily="sans-serif-black"
+        android:paddingTop="8dp"
+        android:textSize="24sp" />
+
+</LinearLayout>
